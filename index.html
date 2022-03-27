@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/Style.css" />
+    <link rel="stylesheet" href="/CSS/cards.css">
+	<link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Images/favicon.ico"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>ASIS</title>
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav" >
+      <div class="container ps-lg-4 ms-lg-4">
+        <a href="/index.html" class="navbar-brand">
+          <img class="logo" src="./Images/School-LOGO.png" alt="LOGO" />
+        </a>
+        <!-- toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav-list -->
+        <div
+          class="collapse navbar-collapse align-center justify-content-end"
+          id="nav-menu"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Footer" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#eligiblity" class="nav-link">ASIS Divisions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Why" class="nav-link">Why ASIS?</a>
+            </li>
+            <li class="nav-item">
+              <a href="#location" class="nav-link"
+                >Contact Us
+              </a>
+            </li>
+            <li><div class="vl mt-2 d-none d-lg-block ms-1 me-1"></div></li>
+            <li class="nav-item">
+              <a href="#recipient" class="nav-link">Log in <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+              </svg></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel -->
+    <div class="carousel" data-aos-once="false" data-aos="slide-up" data-aos-duration="2000">
+      <section id="home" class="">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="3000"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="/Images/Carousel1.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="/Images/Carousel2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="/Images/Carousel3.jpg"
+                alt="Third slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="/Images/Carousel4.jpg"
+                alt="Fourth slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!-- recipient section  -->
+    <section
+      id="recipient"
+      class="text-dark text-center text-sm-start"
+    >
+      <!-- text -->
+      <div class="d-flex justify-content-between ms-5 py-5">
+        <div class="mx-3" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
+          <h2 class="fw-bold mt-3 display-6">
+            Message from the Principal
+          </h2>
+
+          <p class="mt-5 pt-5">On behalf of the entire staff, I would like to welcome you to the Ahmad Shata International School (ASIS) website.
+            We at ASIS understand that selecting a school for your children can be a difficult decision. This is one of most important journey’s that your child will take, and we are here to support you every step of the way.
+            Against the backdrop of the ancient pyramids of Egypt, our school prides itself in enhancing the ability of our student’s to embrace their heritage, strengthen their identity and build a deep sense of commitment to our country, its history and traditions.
+            Our vision for educational excellence is one where professional and inspiring educators nurture the talents of our students, enabling them to achieve their full potential and pursue their chosen pathway.
+            We believe in cultivating an environment that allows students to develop an innate passion for learning, driven by active and creative education that provides young people with the confidence, competence and motivation to achieve their greatest aspirations.</p>
+      
+          </div>
+        <!-- image -->
+        <div  data-aos="fade-left" data-aos-once="false" data-aos-duration="2000" class="me-5">
+        <img
+          class="mx-5 mt-1 d-none d-lg-inline img-fluid pe-5"
+          src="/Images/Shata.JPG"
+          alt="Donation impact illustration"
+        />
+        </div>
+      </div>
+      <div class="px-5" data-aos="fade-left" data-aos-once="false" data-aos-duration="2000" class="me-5">
+        <p>In this context, ASIS provide students with a wide range of learning experiences and opportunities. Every ASIS Division provides its learners with a rigorous, coherent and internationally rated standards-based curriculum. We also focus on including in our teaching programs important skills, such as communication, creative thinking, organization, leadership and collaboration.
+          ASIS supports children who need additional help through special programs developed and managed by dedicated professionals and experts. We believe in empowering all our students to aspire to be active participants and leaders– whether it be through academics, sport, arts or community development.
+          I hope that by looking through our website you will get a sense of what our school represents. The ASIS community is comprised of students that are challenged, valued and respected on a daily basis, supportive families devoted to the well-being of their children and professional staff members dedicated to ensuring our students learn at the highest levels. At ASIS we are also very proud of the many achievements our Alumni, hundreds of brilliant young minds affecting positive change in their communities.
+          I would like to thank you for visiting our website, and encourage you to come and see first-hand our mission in action.
+          Join us at ASIS as we move forward together, building the capacity of young people to be the best leaders and teachers of tomorrow.</p>
+            
+      </div>
+    </section>
+    <!-- Why-section -->
+    <section
+      id="Why"
+      class="text-dark text-center text-sm-start"
+    >
+    <img class="img-fluid wave" src="./Images/wave3.png" alt="">
+      <!-- text -->
+      <div class="d-flex justify-content-between ms-5 py-5">
+        <div class="mx-3" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
+          <h2 class="fw-bold mt-3 display-6">
+           Why <span class="text-warning">ASIS</span>?
+          </h2>
+
+          <p class="mt-5">Ahmad Shata International School is dedicated to developing the full potential of every student. It creates and maintains a positive atmosphere, which enables each student to achieve maximum learning capabilities.
+
+            ASIS provides students with strong academic programs, based on internationally renowned and accredited curriculums and administrated through innovative and participatory teaching methodologies. The school aims to sustain a positive school culture, where students receive the respect and support they require to develop their skills and enable optimal growth in competence, confidence, and motivation. In addition, we work to ensure a clean, safe and welcoming environment for our students, as well as promote an atmosphere of inclusion, tolerance and mutual respect.
+            
+            ASIS prides itself on being driven by a faculty of caring and hardworking teachers and staff members that work to nurture the development of students and lead them on the road towards academic achievement.
+          </div>
+        <!-- image -->
+        <div  data-aos="fade-left" data-aos-once="false" data-aos-duration="2000" class="">
+        <img
+          class=" mt-1 d-none d-lg-inline "
+          style="width: 350px;"
+          src="/Images/LOGO.png"
+          alt="ASIS-LOGO"
+        />
+        </div>
+      </div>
+    </section>
+    <!--donation section -->
+    <section id="donation" class="don text-dark text-center text-sm-start">
+      <!-- text -->
+      <div class="d-flex justify-content-between ms-5 py-5">
+        <div class="mx-3" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
+          <h2 class="fw-bold mt-5 pt-3 ">
+            Things are looking promising with your Eligibility test!
+          </h2>
+
+          <h4 class="my-4">
+            Now it is time to fill out the Donation form below
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-arrow-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+              />
+            </svg>
+          </h4>
+          <div class="container pe-5  py-2 mb-5">
+            <h3 class="lead">
+              The donation form's information are completely confidetial, and
+              you are free to choose whether to be contacted when there is an
+              urgent need for your blood or not.
+            </h3>
+          </div>
+          <a
+            class="btn btn-danger mx-3 fw-bold"
+            href="/Collateral/Donation form/Donation-form.html"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-clipboard-check"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+              />
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+              />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+              />
+            </svg>
+
+            Fill out the form
+          </a>
+        </div>
+        <!-- image -->
+        <div  data-aos="fade-left" data-aos-once="false" data-aos-duration="2000">
+        <img
+          style="width: 400px; height: 400px "
+          class="mx-5 mt-1 d-none d-lg-inline"
+          src="/Images/Form2.svg"
+          alt="Donation impact illustration"
+        />
+        </div>
+      </div>
+    </section>
+    <!-- location section -->
+    <section id="location" class="loc text-dark text-center text-sm-start">
+      <img class="img-fluid wave" src="/Images/wave3.png" alt="">
+      <!-- text -->
+      <div class="d-flex justify-content-between ms-5 py-5">
+        <div class="mx-3" data-aos-once="false" data-aos="fade-right" data-aos-duration="2000">
+          <h2 class="fw-bold mt-5 pt-4 display-6">It is time to make difference!</h2>
+
+          <h4 class="my-4">
+            Now that you have successfully filled the donation form above. It is
+            time for you to find the nearest verified institute, where you can
+            go through the blood donation process.
+          </h4>
+          <div class="container  py-2 mb-5">
+            <h5 class="lead ">
+              it is immensely crucial to place your donation in a verified and trusted health institute that is under the jurisdiction of the Egyptian Ministry Of Health so that you are sure that you will be dealing with a well-trained doctor that is qualified to handle your blood donation process.
+            </h5>
+          </div>
+          <a class="btn btn-danger mx-3 fw-bold" href="/Collateral/Map.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-geo-alt"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+              />
+              <path
+                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              />
+            </svg>
+
+            Find the nearest verified location
+          </a>
+        </div>
+        <!-- image -->
+        <div data-aos="fade-left" data-aos-once="false" data-aos-duration="2000" class="mx-0 my-0">
+        <img
+          style="width: 400px; height: 400px"
+          class="mx-5 mt-1 d-none d-lg-inline"
+          src="/Images/map2.png"
+          alt="Donation impact illustration"
+        />
+        </div>
+      </div>
+    </section>
+    <!--Divisions section  -->
+    <section class="learn  text-dark" id="learn">
+      <img src="/Images/lol2.png" alt="">
+      <h1 class="pt-5 pb-3 text-dark ps-5"><span class="text-warning">ASIS</span> Divisions</h1>
+      <h5 class="text-dark ps-5 pe-5 me-5">
+       Our school contains four main divisions In each section of the sections below we will discuss each of them individually.
+      </h3>
+      
+           <!-- Cards -->
+      <!-- 1st row -->
+      <div class="ms-5 me-5 ps-2 pe-2 text-dark" data-aos="flip-up"  data-aos-once="false" data-aos-duration="2000">
+        <div class="row py-5 justify-content-between">
+          <!-- Egypt -->
+          <div class="ui-card">
+            <img src="/Images/Egypt.png"  class="img-fluid mt-4"/>
+            <div class="description">
+              <h3> <span class="text-danger">National</span> Division</h3>
+              <p>
+                The National Division was established in 1985 under the authorization of Egyptian Ministry of Education
+              </p>
+              <a
+                      class="btn btnc btn-lg text-dark lead"
+                      href="#"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-chevron-double-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                      </svg>
+                      Explore Division
+                    </a>
+            </div>
+          </div>
+          <!-- USA -->
+          <div class="ui-card ">
+            <img src="/Images/USA.png" class="img-fluid mt-4" />
+            <div class="description">
+              <h3>  <span class="text-danger">American</span> Division</h3>
+              <p>The American division was established in 1999 under the authorization of Cognia previously (AdvanceED)</p>
+              <a
+                      class="btn btnc btn-lg text-dark"
+                      href="#"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-chevron-double-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                      </svg>
+                      Explore Division
+                    </a>
+            </div>
+          </div>
+          <!-- British -->
+          <div class="ui-card">
+            <img src="/Images/UK.png"  class="img-fluid mt-4"/>
+            <div class="description">
+              <h3>   <span class="text-danger">British</span> Division</h3>
+              <p>
+                The British division was established in 2007 under the authorization of Cambridge, edexcel and Oxford.
+              
+            </p>
+              <a
+                      class="btn btnc btn-lg text-dark"
+                      href="#"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-chevron-double-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                      </svg>
+                      Explore Division
+                    </a>
+            </div>
+          </div>
+          <!-- French -->
+          <div class="ui-card">
+            <img src="/Images/France.png" class="img-fluid mt-4" />
+            <div class="description">
+              <h3>   <span class="text-danger">French</span> Division</h3>
+              <p>
+                The French Division (lycee Francais) was Established in 2002 under the authorization of La Mission Laique
+            </p>
+              <a
+                      class="btn btnc btn-lg text-dark"
+                      href="#"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-chevron-double-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                      </svg>
+                      Explore Division
+                    </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <!-- Footer -->
+    <footer class="pb-5 text-light bg-dark text-center position-relative" id="Footer">
+      <img class="wave img-fluid" src="/Images/wave3.png" alt="">
+        
+        <div class="container ms-1 ps-1">
+          <div class="row">
+            <!-- About us -->
+            <div class="col-3  ms-5 pe-5 pt-5 text-start border-right" style="width: 500px;">
+              <h4 class=" pb-3 lead">ABOUT US</h4>
+              <p><span class="fw-bold text-danger">Blood Donation EG</span> is a non-profit  web-&nbsp;application that provides various services to blood donors
+                 to make the blood donation process way easier than before.</p>
+            </div>
+            <!-- Find us -->
+           <div class="col-3 social-icons border-right pt-5 px-3 mx-3">
+            <h4 class="lead pb-3 ">FIND US ON SOCIAL MEDIA</h4>
+            <a href="#"><img src="/Images/facebook.png" alt=""></a>
+            <a href="#"><img src="/Images/instagram.png" alt=""></a>
+            <a href="#"><img src="/Images//linkedin.png" alt=""></a>
+            <a href="#"><img src="/Images/whatsapp.png" alt=""></a>
+           </div>
+           <!-- Contact us -->
+           <div class="col-3 pt-5 me-1 ms-1 pe-1 ps-1">
+             <h4 class="lead pb-3">CONTACT US</h4>
+             <p class=""> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg> <span class="ps-2">(+2) 010 21 63 18 25</span></p>
+            <p class="ps-5 ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+            </svg> <span class="ps-2">blood.donation.eg@gmail.com</span></p>
+           </div>
+          </div>
+        </div>
+
+        <a href="#" class="position-absolute top-0 end-0 p-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="white"
+            class="bi bi-arrow-up-circle h1"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
